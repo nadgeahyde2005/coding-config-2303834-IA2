@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coding Conf - Registration</title>
+
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+      <img src="assets/images/logo-full.svg" alt="Coding Conf logo">
+    </header>
+
+    <main>
+
+        <section class="registration-section">
+
+            <h1>
+                Your Journey to Coding Conf
+                <span>2026 Starts Here!</span>
+            </h1>
+
+            <p class="description">
+                Secure your spot at this year's biggest coding conference.
+            </p>
+
+            <form id="registrationForm">
+
+                <div class="form-group">
+
+                    <label for="avatar">Upload Avatar</label>
+
+                    <div class="upload-box">
+                        <img src="assets/images/icon-upload.svg"
+                             alt="Upload icon">
+
+                        <input type="file"
+                               id="avatar"
+                               name="avatar"
+                               accept=".jpg,.jpeg,.png">
+                    </div>
+
+                    <small>Upload your photo (JPG or PNG, max size: 500KB).</small>
+
+                    <p id="avatarError" class="error-message"></p>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="fullName">Full Name</label>
+
+                    <input type="text"
+                           id="fullName"
+                           name="fullName"
+                           placeholder="Enter your full name">
+
+                    <p id="nameError" class="error-message"></p>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="email">Email Address</label>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="example@email.com">
+
+                    <p id="emailError" class="error-message"></p>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="github">GitHub Username</label>
+
+                    <input type="text"
+                           id="github"
+                           name="github"
+                           placeholder="@yourusername">
+
+                    <p id="githubError" class="error-message"></p>
+
+                </div>
+
+                <button type="submit" class="register-button">
+                    Generate My Ticket
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Coding Conf. All Rights Reserved.</p>
+    </footer>
+   <script src="js/validation.js"></script>
+</body>
+</html>
