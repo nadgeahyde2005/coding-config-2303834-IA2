@@ -14,7 +14,7 @@ body {
     font-family: "Courier New", monospace;
     color: var(--white);
     background-color: var(--dark-purple);
-    background-image: url("../assets/images/background-desktop.png");
+    background-image: url("background-desktop.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ body {
 @media screen and (max-width: 768px) {
 
     body {
-        background-image: url("../assets/images/background-tablet.png");
+        background-image: url("background-tablet.png");
     }
 
     .home-section h1 {
@@ -133,7 +133,7 @@ body {
 @media screen and (max-width: 480px) {
 
     body {
-        background-image: url("../assets/images/background-mobile.png");
+        background-image: url("background-mobile.png");
     }
 
     .home-section {
